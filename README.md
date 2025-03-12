@@ -37,4 +37,6 @@ You can modify the training config by changing the `main.config` dict variable v
 
 By default, both training and validation datasets are downloaded at the start of the training loop as small samples of the C4 dataset. For your custom data loading, modify the `data/dataset.py` file.
 
-Small utility scripts, like the logging module setup, are stored in the `utils` folder of the repo.
+Small utility scripts, like the logging module setup, are stored in the `utils` folder of the repo.  
+
+Python version: 3.13.2
